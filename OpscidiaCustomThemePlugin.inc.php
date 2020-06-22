@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file plugins/themes/default/BootstrapThreeOPSThemePlugin.inc.php
+ * @file plugins/themes/default/OpscidiaCustomThemePlugin.inc.php
  *
  * Copyright (c) 2020 Opscidia
  * Distributed under the GNU GPL v3.
@@ -21,7 +21,7 @@ define('OLDGREGG_ISSUE_COVER_RELATIVE_URL', 'images/issue_default.jpg');
 define('OLDGREGG_LATEST_ISSUES_DEFAULT', 3);
 define("CREATE_PDF_QUERY", "download=pdf");
 
-class BootstrapThreeOPSThemePlugin extends ThemePlugin {
+class OpscidiaCustomThemePlugin extends ThemePlugin {
 	/**
 	 * Initialize the theme
 	 *

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @defgroup plugins_themes_bootstrap3OPS Theme plugin for base Bootstrap 3 theme - custom for Opscidia
+ * @defgroup OpscidiaCustomThemePlugin Theme plugin for base Bootstrap 3 theme - custom for Opscidia
  */
 
 /**
@@ -15,8 +15,8 @@
  *
  */
 
-require_once('BootstrapThreeOPSThemePlugin.inc.php');
+require_once('OpscidiaCustomThemePlugin.inc.php');
 
-return new BootstrapThreeOPSThemePlugin();
+return new OpscidiaCustomThemePlugin();
 
 ?>

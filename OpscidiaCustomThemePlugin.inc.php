@@ -315,11 +315,11 @@ class OpscidiaCustomThemePlugin extends ThemePlugin {
 
 //		$pdfDocument->SetHeaderData($pdfHeaderLogo, PDF_HEADER_LOGO_WIDTH, $journal->getLocalizedName(), $articleDataString);
 		$pdfDocument->SetHeaderData($pdfHeaderLogo, 150, $journal->getLocalizedName(), $articleDataString);
-		
+
 		$pdfDocument->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
 //		$pdfDocument->setHeaderFont(Array('playfair', '', PDF_FONT_SIZE_MAIN));
 		$pdfDocument->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
-		
+
 		$pdfDocument->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
 		$pdfDocument->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
 		$pdfDocument->SetHeaderMargin(PDF_MARGIN_HEADER);
@@ -524,4 +524,3 @@ class OpscidiaCustomThemePlugin extends ThemePlugin {
 }
 
 ?>
-
